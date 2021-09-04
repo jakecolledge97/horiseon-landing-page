@@ -27,7 +27,7 @@ git clone git@github.com:jakecolledge97/horiseon-landing-page.git
 
 The following image contains a screenshot of the full webpage live at: https://jakecolledge97.github.io/horiseon-landing-page/
 
-![Horiseon full page screenshot](assets\images\jakecolledge97.github.io_horiseon-landing-page_.png)
+![Horiseon full page screenshot](jakecolledge97.github.io_horiseon-landing-page_.png)
 
 
 ## License 
