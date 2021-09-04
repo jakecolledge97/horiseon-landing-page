@@ -3,7 +3,7 @@
 ## Horiseon - Landing page 
 
 - [Description](#Description)
-- [Installation](#To-view-and-edit-this-projects-repository)
+- [Installation](#To-edit-this-projects-repository)
 - [Assets](#Assets)
 - [Licensing](#License)
 
@@ -13,10 +13,10 @@ This landing page is a simple yet sleek design to demonstrate a professional app
 
 This project shows my skills in understanding CSS and HTML, and helped me in understanding Semantic HTML elements rather than relying on div tags for everything.
 
-## To view and edit this projects repository
+## To edit this projects repository
 
 1. Open an empty project in VS code.
-2. Open an integrated terminal and copy the following to clone the repo:
+2. Open an integrated terminal and copy and paste the following to clone the repo:
 ```
 git clone git@github.com:jakecolledge97/horiseon-landing-page.git
 ```
