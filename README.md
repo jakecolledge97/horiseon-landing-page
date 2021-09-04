@@ -15,14 +15,19 @@ This project shows my skills in understanding CSS and HTML, and helped me in und
 
 ## To view and edit this projects repository
 
-1. Open an empty project in VS code
-2. 
+1. Open an empty project in VS code.
+2. Open an integrated terminal and copy the following to clone the repo:
+```
+git clone git@github.com:jakecolledge97/horiseon-landing-page.git
+```
+(this is found on my github page in the horiseon landing page repository https://github.com/jakecolledge97/horiseon-landing-page .)
 
+3. right click in the open index.html document and select open in default browser.
 ## Assets
 
-The following image contains a screenshot of the full webpage live at [insert page address here]
+The following image contains a screenshot of the full webpage live at: https://jakecolledge97.github.io/horiseon-landing-page/
 
-[insert image here]
+![Horiseon full page screenshot](jakecolledge97.github.io_horiseon-landing-page_.png)
 
 
 ## License 
