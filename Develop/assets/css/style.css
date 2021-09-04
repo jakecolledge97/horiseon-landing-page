@@ -1,29 +1,30 @@
+/* Common styling for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Back-ground colour for body of page*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Header Styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Font styles for Headers H1 */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Different colour for the 'seo' in Horiseon */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Styles for the Navingation links in header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,22 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header nav ul {
-    list-style-type: none;
-}
-
+/* Styles for the headers navigation elements */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Common styles for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Common styles for paragraphs*/
 p {
     font-size: 16px;
 }
 
+/* Hero image styles for image above main section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +57,43 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* Styling for images in company services section */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Image sizing for responsive website */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+/* Styling for text h2 in company sevice div */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Search engine optimization and social media marketing image float */
+.engine-optimization-image, .social-marketing-image {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
+/* Online reputation management image float */
+.online-reputation-image {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* Styling for services section */
+.company-sevices {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Styling for the pros of hiring company section */
+.hire-benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,109 +103,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* Styling for benefit lead/brand/cost */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Styling for h3 for benefit lead/brand/cost */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Styling for all images in benefit section */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling */
 footer {
     padding: 30px;
     clear: both;
